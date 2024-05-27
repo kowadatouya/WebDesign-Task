@@ -1,0 +1,12 @@
+@charset "utf-8";
+#bg-yellow{
+    background-color:yellow;}
+    .text-pink{
+        color:palevioletred;}
+        .bg-orange{
+            background-color:orange;}
+            .text-blue{
+                color:blue;}
+                span{
+                    border: 2px dotted green;
+                }
