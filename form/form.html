@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>入力フォーム</title>
+    <link rel="stylesheet" href="form-style.css">
+</head>
+<body>
+    <form action="#" method=get="mutipart/form-data">
+
+        <fieldset class="aida">
+        <legend>お客様情報</legend>
+            <table>
+                <tr>
+                    <th>性</th>
+                    <td> :<input type="text" name="last-name"></td>
+                </tr>
+                <tr>
+                    <th>名</th>
+                    <td>:<input type="text" name="first-name"></td>
+                </tr>
+                <tr>
+                    <th>住所</th>
+                    <td>:<input type="text" name="address"></td>
+                </tr>
+                <tr>
+                    <th>メールアドレス</th>
+                    <td>:<input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <th>電話番号</th>
+                    <td>:<input type="tel" name="tel"></td>
+                </tr>
+                <tr>
+                    <th>生年月日</th>
+                    <td>:<input type="date" name="birthday" value="1990-01-01"></td>
+                </tr>
+                <tr>
+                    <th>年齢</th>
+                    <td>:<input type="number" name="age" min="0" max="150"> 歳</td>
+                </tr>
+                <tr>
+                    <th>性別</th>
+                    <td><label><input type="radio" name="gender" value="man"> 男
+                        <label><input type="radio" name="gender" value="woman"> 女
+                        <label><input type="radio" name="gender" value="other"> その他
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+
+        <fieldset class="aida">
+            <legend>パスワード</legend>
+            英数字8文字以上で入力してください。<br>
+            <input type="password" name="password"><br>
+            確認のためもう一度入力してください。<br>
+            <input type="password" name="password_confirm">
+        </fieldset>
+
+        <fieldset class="aida">
+            <legend>希望メール・マガジン</legend>
+            <label><input type="checkbox" name="magazine" value="1"> IT
+            <label><input type="checkbox" name="magazine" value="2"> 営業
+            <label><input type="checkbox" name="magazine" value="3"> 接客
+            <label><input type="checkbox" name="magazine" value="4"> 医療
+        </fieldset>
+
+        <fieldset class="aida">
+            <legend>利用規約</legend>
+            <a href="term.html" class="text-p" target="_blank">利用規約を確認する</a><br>
+            <input type="checkbox" name="terms" value="agree"> 規約に同意する
+        </fieldset>
+
+        <button type="reset">クリアボタン</button>
+        <button type="submit">確認ボタン</button>
+
+    </form>
+
+</body>
+</html>

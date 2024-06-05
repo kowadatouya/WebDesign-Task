@@ -1,0 +1,16 @@
+@charset "utf-8";
+.text-p{
+    font-size: 0.7rem;
+}
+
+.aida{
+    margin-bottom: 10px;
+}
+th{
+    font-weight: normal;
+    text-align: left;
+    padding: 3px;
+}
+.sai{
+    padding: px;
+}
