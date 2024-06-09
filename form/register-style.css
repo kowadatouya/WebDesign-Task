@@ -1,0 +1,14 @@
+@charset "utf-8";
+span{
+    background-color:red;
+    color: aliceblue;
+}
+.bg-size{
+    font-size: 0.7rem;
+}
+th{
+    background-color:slategray;
+}
+td{
+    background-color: grey;
+}

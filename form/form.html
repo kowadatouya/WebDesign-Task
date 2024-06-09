@@ -7,18 +7,19 @@
     <link rel="stylesheet" href="form-style.css">
 </head>
 <body>
-    <form action="#" method=get="mutipart/form-data">
-
+    <h1>会員登録</h1>
+    <p>以下の情報を入力し、確認ボタンを押してください。</p>
+    <form action="#" method="post">
         <fieldset class="aida">
         <legend>お客様情報</legend>
             <table>
                 <tr>
                     <th>性</th>
-                    <td> :<input type="text" name="last-name"></td>
+                    <td> :<input type="text" name="first-name"></td>
                 </tr>
                 <tr>
                     <th>名</th>
-                    <td>:<input type="text" name="first-name"></td>
+                    <td>:<input type="text" name="last-name"></td>
                 </tr>
                 <tr>
                     <th>住所</th>
@@ -42,9 +43,9 @@
                 </tr>
                 <tr>
                     <th>性別</th>
-                    <td><label><input type="radio" name="gender" value="man"> 男
-                        <label><input type="radio" name="gender" value="woman"> 女
-                        <label><input type="radio" name="gender" value="other"> その他
+                    <td><label><input type="radio" name="gender" value="0"> 男</label>
+                        <label><input type="radio" name="gender" value="1"> 女</label>
+                        <label><input type="radio" name="gender" value="2"> その他</label>
                     </td>
                 </tr>
             </table>
@@ -61,10 +62,10 @@
 
         <fieldset class="aida">
             <legend>希望メール・マガジン</legend>
-            <label><input type="checkbox" name="magazine" value="1"> IT
-            <label><input type="checkbox" name="magazine" value="2"> 営業
-            <label><input type="checkbox" name="magazine" value="3"> 接客
-            <label><input type="checkbox" name="magazine" value="4"> 医療
+            <label><input type="checkbox" name="magazine" value="1"> IT</label>
+            <label><input type="checkbox" name="magazine" value="2"> 営業</label>
+            <label><input type="checkbox" name="magazine" value="3"> 接客</label>
+            <label><input type="checkbox" name="magazine" value="4"> 医療</label>
         </fieldset>
 
         <fieldset class="aida">
@@ -77,6 +78,5 @@
         <button type="submit">確認ボタン</button>
 
     </form>
-
 </body>
 </html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登録フォーム</title>
+    <link rel="stylesheet" href="register-style.css">
+</head>
+<body>
+<p>必要事項を入力の上、送信ボタンを押してください。</p><br>
+<form action="#" method="get">
+    <table>
+        <tr>
+            <th>ID<span>必須</span>(メールアドレス)</th>
+            <td>:<input type="email" name="email" size="30" placeholder="例：xxx@morijyobi.ac.jp"></td>
+        </tr>
+        <tr>
+            <th>パスワード<span>必須</span>(半角英数字８文字以上)</th>
+            <label><td>:<input type="password" name="password" size="30" minlength="8"></td></label>
+            <label><td><input type="checkbox" required>パスワードを表示する</td></label>
+        </tr>
+        <tr>
+            <th>氏名<span>必須</span></th>
+            <td> 性:<input type="text" name="last-name" placeholder="例：盛岡"></td>
+            <td>名:<input type="text" name="first-name" placeholder="例：太郎"></td>
+        </tr>
+        <tr>
+            <th>住所</th>
+            <td>〒<input type="text" size="8" value="020-0021" readonly></td>
+            <td><input type="text" value="岩手県盛岡市中央通３丁目" readonly></td>
+            <td><input type="text" placeholder="番地"></td>
+            <td><input type="text" placeholder="建物名"></td>
+        </tr>
+        <tr>
+            <th>携帯電話番号<span>必須</span>(ハイフンなし)</th>
+            <td><input type="tel" name="user_tel"></td>
+        </tr>
+        <tr>
+            <th>学科・学年<span>必須</span></th>
+            <td><select name="学科" required>
+                <option value="">学科を選択してください</option>
+                <option value="A">システム系学科</option>
+                <option value="B">ビジネス系学科</option>
+                <option value="O">デザイン系学科</option>
+            </select></td>
+            <td><select name="学年" required>
+                <option value="">学年を選択してください</option>
+                <option value="1">１年</option>
+                <option value="2">２年</option>
+                <option value="3">３年</option>
+                <option value="4">４年</option>
+            </select></td>
+        </tr>
+        <tr>
+            <th>お得な情報・クーポン<span>必須</span></th>
+            <td><input type="radio" value="yes">受け取る</td>
+            <td><input type="radio" value="no">受け取らない</td>
+        </tr>
+        <tr>
+            <th>ご意見・ご要望(200字以内でご記入ください)</th>
+            <td><textarea name="multiple" cols="50" rows="10" maxlength="200"></textarea></td>
+        </tr>
+        <tr>
+            <th><button type="reset">入力内容をクリアする</button></th>
+            <td><button type="submit">送信</button></td>
+        </tr>
+    </table>
+</form>   
+</body>
+</html>
