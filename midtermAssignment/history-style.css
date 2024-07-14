@@ -1,0 +1,48 @@
+.mark-list {
+    list-style: "■";
+}
+main{
+    background-color: skyblue;
+    width: 50%;
+    margin:auto;
+}
+.frame p{
+    line-height:1;
+}
+.float-left{
+    width: 20%;
+    margin:0 1rem;
+}
+.float-left img{
+    width:400%;
+    height: 500%;
+    object-fit:contain
+}
+h1{
+    margin-bottom: 0.8rem;
+}
+h2{
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-top: 1cap black solid;
+    border-bottom: 1cap black solid;
+}
+h3, p{
+    padding: 5%;
+}
+.frame p{
+    line-height: 1.6;
+}
+.tr{
+    background-color: skyblue;
+}
+body{
+    background-image: url(img/offise.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+span{
+    color: red;
+}

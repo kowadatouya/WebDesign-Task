@@ -1,0 +1,59 @@
+.mark-list {
+    list-style: "■";
+}
+main{
+    background-color: antiquewhite;
+    width: 50%;
+    margin:auto;
+}
+.frame{
+    margin-bottom: 2rem;
+    display: flow-root;
+}
+.frame p{
+    line-height:1;
+}
+.float-left{
+    width: 20%;
+    margin:0 1rem;
+    float: left;
+}
+.float-left img{
+    width:300%;
+    height: 400%;
+    object-fit:contain
+}
+h1{
+    margin-bottom: 0.8rem;
+}
+h2{
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-top: 1cap black solid;
+    border-bottom: 1cap black solid;
+}
+h3, p{
+    padding: 5%;
+}
+.frame p{
+    line-height: 1.6;
+}
+.tr{
+    background-color: skyblue;
+}
+body{
+    background-image: url(img/enginia.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.btn{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    display: block;
+    width: 100%;
+    border-radius: 50px;
+    margin: 0 auto;
+}

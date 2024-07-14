@@ -1,0 +1,27 @@
+header, footer{
+    background-color: gray;
+    padding: 0.5rem;
+}
+header{
+    width: 100%;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+header ul li{
+    width: 20%;
+    text-align: center;
+}
+header ul li a{
+    display: block;
+    padding: 0.5rem;
+    color: white;
+    text-decoration: none;
+    /* 太字にするプロパティ*/
+    font-weight: bold;
+}
+header ul li + li{
+    border-left: 2px solid black
+}
