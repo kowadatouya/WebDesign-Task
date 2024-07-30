@@ -1,5 +1,5 @@
 .mark-list {
-    list-style: "■";
+    list-style-image: url(img/ristmark.jpg);
 }
 main{
     background-color: skyblue;
